@@ -1,0 +1,49 @@
+body {
+    text-align: left;
+    font-family: sans-serif;
+    background-color: rgb(206, 206, 206);
+}
+
+p {
+    font-size: 40px;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+#delete {
+    background-color: red;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
