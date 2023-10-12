@@ -25,7 +25,7 @@ if (isset($_POST["delete"])) {
         // smazani obrazku
         $delete_sql = "DELETE FROM images WHERE id = $image_id";
         if ($conn->query($delete_sql) === TRUE) {
-            header('Location: http://bagrnenitobogan.wz.cz');
+            header('Location: http://migmigman.wz.cz');
         } else {
             echo "Error deleting image: " . $conn->error;
         }
