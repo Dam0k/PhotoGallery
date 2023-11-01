@@ -24,7 +24,7 @@
 // pripojeni databaze
 $servername = "sql6.webzdarma.cz";
 $username = "migmigmanwzc7578";
-$password = "QKi@^#rXrbf!Uv7U";
+$password = "";
 $dbname = "migmigmanwzc7578";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
